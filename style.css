@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #231c3d;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px rgba(70, 70, 150, 0.5);
+    padding: 50px 0px;
+}
+
+.circular-progress {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #ededed;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    box-shadow: 20px 20px 40px rgba(80, 80, 150, 0.5);
+}
+
+.circular-progress:before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 50px;
+    color: #231c3d;
+   
+}
+
+
+.parallel-progress {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    background-color: #ededed;
+    border-radius: 5px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(50, 50, 130, 0.8);
+}
+
+.parallel-value span {
+    color: #231c3d;
+}
+
+.text {
+    padding: 50px;
+}
+
+.text h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.make {
+    padding: 50px;
+    display: grid;
+    place-items: center;
+}
+
+#button {
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: grey;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: green;
+}
+
+.popup {
+    display: none;
+}
+
+.popup h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.pop p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+#done {
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: grey;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-style: none;
+}
+
+#done:hover {
+    background-color: green;
+}
+
+#success {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 200px;
+    display: none;
+    box-shadow: 5px 5px 10px rgba(50, 50, 130, 0.8);
+}
+
+#circular-image {
+    display: none; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 999999;
+    position: relative;
+    top:0;
+}
+
+.winning{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.winning img{
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+
+
+ 

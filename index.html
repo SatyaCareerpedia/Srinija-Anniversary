@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&display=swap');
+    </style>
+</head>
+
+<body id="body">
+    <div class="container">
+        <img src="./Assets/check.png" alt="" id="success">
+        <div class="circular-progress">
+            <span class="progress-value">0%</span>
+            <img src="./Assets/HR.jpg" alt="Progress Image" id="circular-image" />
+        </div>
+        <span class="text">
+            <h2>HR SRINIJA</h2>
+        </span>
+        <div class="parallel-progress">
+            <span class="parallel-value">0%</span>
+        </div>
+        <div class="make">
+            <a id="button" onclick="progressBar()">Click To Wish</a>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <div class="winning">
+            <img src="./Assets/trophy.png" alt="cup1">
+            <img src="./Assets/trophy.png" alt="cup2">
+            <img src="./Assets/trophy.png" alt="cup3">
+            <img src="./Assets/trophy.png" alt="cup3">
+        </div>
+        <h1>Congratulations Srinija!</h1>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
